@@ -16,8 +16,7 @@ public class GildedRoseTest {
    
     @Test
     public void too() {
-        Item[] items1 = new Item[] {
-                new Item("+5 Dexterity Vest", 10, 20),
+        Item[] items1 = new Item("+5 Dexterity Vest", 10, 20),
                 new Item("+5 Dexterity Vest", 10, 20),
                 new Item("Aged Brie", 2, 0), 
                 new Item("Elixir of the Mongoose", 5, 7);
