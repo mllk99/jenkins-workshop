@@ -9,6 +9,7 @@ node {
         def Branch = env.GIT_BRANCH //?: ''
         echo "echo branch name"
         echo "${Branch}"
+        echo "${env}
     }
     
     stage ('Preparation') {
