@@ -1,4 +1,4 @@
-
+@Library('workshop') _
 node {
     stage ('Hello'){
         echo 'Hello World'
