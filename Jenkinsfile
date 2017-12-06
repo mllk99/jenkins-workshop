@@ -4,7 +4,9 @@ node {
         echo 'Hello World'
     }
     stage ('Preparation') {
-        git credentialsId: '23d398e3-c473-4e62-b507-ad04f2952f50', url: 'git@github.com:mllk99/jenkins-workshop.git'
+        
+        checkout scm
+        //git credentialsId: '23d398e3-c473-4e62-b507-ad04f2952f50', url: 'git@github.com:mllk99/jenkins-workshop.git'
         //sh "git clone git@github.com:mllk99/jenkins-workshop.git"
     }
     
