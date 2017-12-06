@@ -10,6 +10,8 @@ node {
         echo "echo branch name"
         echo "${Branch}"
         echo "${env}"
+        sh 'env'
+        env.getEnvironment()
     }
     
     stage ('Preparation') {
