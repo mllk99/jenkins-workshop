@@ -7,7 +7,7 @@ node {
     stage('Branch') {
         
         def Branch = env.GIT_BRANCH //?: ''
-        echo "${Branch}
+        echo "${Branch}"
     }
     
     stage ('Preparation') {
