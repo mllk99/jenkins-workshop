@@ -6,12 +6,12 @@ node {
     
     stage('Branch') {
         
-        def Branch = env.GIT_BRANCH //?: ''
+        def Branch = env.BRANCH_NAME //?: ''
         echo "echo branch name"
         echo "${Branch}"
-        echo "${env}"
-        sh 'env'
-        env.getEnvironment()
+        //echo "${env}"
+        //sh 'env'
+        //env.getEnvironment()
     }
     
     stage ('Preparation') {
